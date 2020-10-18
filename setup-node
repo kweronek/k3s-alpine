@@ -1,0 +1,8 @@
+echo | sudo setup-alpine -q
+sudo swapoff -a
+sudo rc-update add cgroups default
+sudo echo "default_kernel_opts="\""...  cgroup_enable=cpuset cgroup_memory=1 cgroup_enable=memory"\""" >> /etc/update-extlinux.conf
+sudo update-extlinux
+sudo apk add curl
+
+sudo reboot
