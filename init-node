@@ -193,6 +193,7 @@ fi
 
 $PREFIX/sbin/setup-apkrepos ${APKREPOSOPTS}
 
+##*********************************************************************************************
 # lets stop here if in "quick mode"
 if [ "$quick" = 1 ]; then
 	exit 0
