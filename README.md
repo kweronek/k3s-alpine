@@ -5,7 +5,7 @@
 Alpine Linux 3.12.0 (Oct.2020):
 AMI: alpine-ami-edge-x86_64-20200425232123 (ami-097be5ea1a5c7b6ce)
 
-### AWS-EC2.Instance
+### AWS-EC2-Instance
 #### Minimum Hardware Requirements
 Master: RAM   1GB, 1vCPU --> t2.micro, t3.micro, t3a.micro
 Worker: RAM 500MB, 1vCPU --> t2.nano,  t3.nano,  t3a.nano
@@ -59,4 +59,4 @@ You have to replace the value of the K3S_TOKEN by the actual node-token of the s
 sudo curl -sfL https://get.k3s.io | K3S_URL=https://ec2-XX-XX-XX-XX.compute-1.amazonaws.com:6443 K3S_TOKEN=K10d....46b9 sh -
 ```
 
-## Test your Cluster
+## Test the Cluster
