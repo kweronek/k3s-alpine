@@ -30,3 +30,4 @@ sudo cat /var/lib/rancher/k3s/server/node-token
 #### K3s-worker
 ```sudo curl -sfL https://get.k3s.io | K3S_URL=https://ec2---------.amazonaws.com:6443 K3S_TOKEN=K10ec0460011c7783d59ea19cb0e88b0d189df48d01da0faf8fe13be58e8ad66549::server:b701ef3a4cb3e57f4b8decfc002c46b9 sh -
 ```
+kw
