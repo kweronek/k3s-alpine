@@ -17,12 +17,16 @@ Worker: Disk 2GB, RAM   2GB, 2vCPU --> t3.small, t3a.small
 ## Config Alpine Node
 
 ### Setup Alpine Node
+```
 wget https://raw.githubusercontent.com/kweronek/k3s-alpine/main/setup-node && chmod 744 * && sudo ./setup-node
-
+```
 #### K3s-server
+```
 sudo curl -sfL https://get.k3s.io | INSTALL_K3S_EXEC="--disable-agent --write-kubeconfig-mode 644" sh -  
+```
+```
 sudo cat /var/lib/rancher/k3s/server/node-token
-
+```
 #### K3s-worker
-sudo curl -sfL https://get.k3s.io | K3S_URL=https://ec2---------.amazonaws.com:6443 K3S_TOKEN=K10ec0460011c7783d59ea19cb0e88b0d189df48d01da0faf8fe13be58e8ad66549::server:b701ef3a4cb3e57f4b8decfc002c46b9 sh -
-
+```sudo curl -sfL https://get.k3s.io | K3S_URL=https://ec2---------.amazonaws.com:6443 K3S_TOKEN=K10ec0460011c7783d59ea19cb0e88b0d189df48d01da0faf8fe13be58e8ad66549::server:b701ef3a4cb3e57f4b8decfc002c46b9 sh -
+```
