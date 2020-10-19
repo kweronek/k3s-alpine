@@ -1,4 +1,4 @@
-# Automated Launch of a K8S Cluster   based on AWS-EC, Alpine and K3S
+# Launch of a K8S Cluster based on AWS-EC2, Alpine and K3S
 
 ## Launch AWS-EC2-Instances with Alpine
 ### Alpine-AMI
