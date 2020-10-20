@@ -11,12 +11,12 @@ Master: RAM   1GB, 1vCPU --> t2.micro, t3.micro, t3a.micro
 Worker: RAM 500MB, 1vCPU --> t2.nano,  t3.nano,  t3a.nano  
 
 #### Recommended Hardware Requirements
-Master: RAM   2GB, 2vCPU --> t3.small, t3a.small  
+Master: RAM   4GB, 2vCPU --> t2.medium, t3.medium, t3a.medium (up to 10 nodes)  
 Worker: RAM   2GB, 2vCPU --> t3.small, t3a.small  
 
 #### Disks
-Master: Disk minumum 1GB, recommended 2GB or more,   
-Worker: Disk miniumn 1GB, recommended 2GB or more.  
+Master: Disk minimum 1GB, recommended 2GB or more,   
+Worker: Disk minimum 1GB, recommended 2GB or more.  
 
 #### Tags (recommended)
 Master:  
