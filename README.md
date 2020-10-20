@@ -7,30 +7,30 @@ AMI: alpine-ami-edge-x86_64-20200425232123 (ami-097be5ea1a5c7b6ce)
 
 ### AWS-EC2-Instance
 #### Minimum Hardware Requirements
-Master: RAM   1GB, 1vCPU --> t2.micro, t3.micro, t3a.micro
-Worker: RAM 500MB, 1vCPU --> t2.nano,  t3.nano,  t3a.nano
+Master: RAM   1GB, 1vCPU --> t2.micro, t3.micro, t3a.micro  
+Worker: RAM 500MB, 1vCPU --> t2.nano,  t3.nano,  t3a.nano  
 
 #### Recommended Hardware Requirements
-Master: RAM   2GB, 2vCPU --> t3.small, t3a.small
-Worker: RAM   2GB, 2vCPU --> t3.small, t3a.small
+Master: RAM   2GB, 2vCPU --> t3.small, t3a.small  
+Worker: RAM   2GB, 2vCPU --> t3.small, t3a.small  
 
 #### Disks
-Master: Disk minumum 1GB, recommended 2GB or more, 
-Worker: Disk miniumn 1GB, recommended 2GB or more.
+Master: Disk minumum 1GB, recommended 2GB or more,   
+Worker: Disk miniumn 1GB, recommended 2GB or more.  
 
 #### Tags (recommended)
 Master:  
-"Name" : "Clustername-Master-##"
-"AMI"  : "Alpine Linux 3.12.0"
+"Name" : "Clustername-Master-##"  
+"AMI"  : "Alpine Linux 3.12.0"  
 Worker:  
-"Name" : "Clustername-Worker-##"
-"AMI"  : "Alpine Linux 3.12.0"
+"Name" : "Clustername-Worker-##"  
+"AMI"  : "Alpine Linux 3.12.0"  
 
 #### Security-Groups
-For test purposes add the following Inbound-Rule:
-"allow port 0-65353 from any IP".
-For production use the following inbound rules:
-Server:  
+For test purposes add the following Inbound-Rule:  
+"allow port 0-65353 from any IP".  
+For production use the following inbound rules:  
+Server:   
 tbd  
 
 Worker:  
